@@ -5,6 +5,9 @@ trigger:
 - master
 - releases/*
 
+pool:
+  Default
+  
 resources:
   repositories:
   - repository: AzureDevOps
